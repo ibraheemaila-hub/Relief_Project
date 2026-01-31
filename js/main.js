@@ -1,12 +1,13 @@
 $(document).ready(function () {
 
-    const distributionPoints = [
-        { area: "شمال غزة", loc: "مدرسة الفاخورة", type: "طرود غذائية", status: "نشط" },
-        { area: "مدينة غزة", loc: "ساحة السرايا", type: "تأمين مياه", status: "نشط" },
-        { area: "خانيونس", loc: "مجمع ناصر الطبي", type: "أدوية طوارئ", status: "مزدحم" },
-        { area: "دير البلح", loc: "مركز إيواء الهلال", type: "وجبات ساخنة", status: "نشط" },
-        { area: "رفح", loc: "منطقة تل السلطان", type: "خيام إيواء", status: "نشط" }
-    ];
+   const distributionPoints = [
+    { area: "شمال غزة", loc: "مدرسة الفاخورة", type: "طرود غذائية", status: "نشط" },
+    { area: "مدينة غزة", loc: "ساحة السرايا", type: "تأمين مياه", status: "نشط" },
+    { area: "خانيونس", loc: "مجمع ناصر الطبي", type: "أدوية طوارئ", status: "مزدحم" },
+    { area: "دير البلح", loc: "مركز إيواء الهلال", type: "وجبات ساخنة", status: "نشط" },
+    { area: "رفح", loc: "منطقة تل السلطان", type: "خيام إيواء", status: "نشط" },
+    { area: "المنطقة الوسطى", loc: "دير البلح - مركز البركة", type: "توزيع دقيق", status: "نشط" } // السطر الجديد
+];
 
     const tableBody = $('#distribution-body');
 
@@ -39,4 +40,5 @@ $(document).ready(function () {
                 `);
         });
     });
+
 });
