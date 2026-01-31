@@ -6,7 +6,7 @@ $(document).ready(function () {
     { area: "خانيونس", loc: "مجمع ناصر الطبي", type: "أدوية طوارئ", status: "مزدحم" },
     { area: "دير البلح", loc: "مركز إيواء الهلال", type: "وجبات ساخنة", status: "نشط" },
     { area: "رفح", loc: "منطقة تل السلطان", type: "خيام إيواء", status: "نشط" },
-    { area: "المنطقة الوسطى", loc: "دير البلح - مركز البركة", type: "توزيع دقيق", status: "نشط" }
+    { area: "المنطقة الوسطى", loc: "دير البلح - مركز البركة", type: "توزيع دقيق", status: "مزدحم" }
 ];
 
     const tableBody = $('#distribution-body');
@@ -42,4 +42,5 @@ $(document).ready(function () {
     });
 
 });
+
 
